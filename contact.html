@@ -1,30 +1,63 @@
-<!DocType html> 
+<!doctype html>
 <html lang="en-us">
 
-    <head>
-        <title>Karen Gertenbach's Contact Information</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Karen Gertenbach: Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head><!doctype html>
+<html lang="en-us">
 
-    <body>
+<body>
+  <header id="introduction">
+    <div class="container">
+      <a href="index.html" id="My_Name">Karen Gertenbach</a>
+      <nav>
+        <tr>
+          <td><a href="index.html">About</a></td>
+          <td><a href="portfolio.html">Portfolio</a></td>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+      </nav>
+    </div>
+  </header>
 
-        <header>
-            <h1><strong>Karen Gertenbach</strong></h1>
-            <h3><a href="Index.html">About</a></h3>
-            <h3><a href="Portfolio.html">Portfolio</a></h3>
-            <h3><a href="contact.html">Contact</a></h3>
-            <hr />
-        </header>
-        
-        <div class="container">
-          
-            <section id="Contact_Info">
-              
-                <h1><strong>Contact:</strong></h1>
-                <hr />
-
-               
-            </section>
+  <div class ="container">
+  <div id="main-container">
+    <section class="main-section">
+        <h1>Contact</h1>
+        <fieldset>
+              <label>Name</label>
+              <br/>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+              <br/>
+              <label>Email</label>
+              <br/>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+              <br/>
+              <label>Message</label>
+              <br/>
+              <textarea rows="4" cols="50">
+              </textarea>
+              <input type="submit" value="Submit"/>
+        </fieldset>
+      </section>
+    </div>
+    <div id="connect">
+        <section class="sidebar">
+        <h2>Connect with Me</h2>
+        <tr>
+            <td><a href="https://github.com/Kgertenbach"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a></td>
+            <td><a href="https://www.linkedin.com/in/karen-gertenbach-9b27a1151"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a></td>          
+            <td><a href="https://stackoverflow.com/users/8762393/k-gertenbach"><img src="assets/images/stackoverflowpx.png" class="social" alt="Stack Overflow" /></a></td>
+          </tr>
+        </section>
         </div>
-  
-    </body>
-</html>
+    </div>
+    
+      <footer id="closing">
+        <p>Copyright &copy; 2017 Karen Gertenbach</p>
+      </footer>
+      </body>
+      </html> 
